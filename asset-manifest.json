@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.231652fe.css",
+    "main.js": "/static/js/main.5de742c9.js",
+    "static/js/882.86ca574e.chunk.js": "/static/js/882.86ca574e.chunk.js",
+    "static/media/church.jpg": "/static/media/church.3c68201327f29f0628a4.jpg",
+    "static/media/GreatVibes-Regular.ttf": "/static/media/GreatVibes-Regular.6d246c3b51d7eb58b13a.ttf",
+    "static/media/hall.jpg": "/static/media/hall.c235cbc9dac1f213fd7a.jpg",
+    "static/media/rings.png": "/static/media/rings.87a55d2e861762d0756f.png",
+    "static/media/event.png": "/static/media/event.1a5c7f96aea0238e1c97.png",
+    "static/media/image.jpg": "/static/media/image.ab4ce63af2e26ae11fea.jpg",
+    "index.html": "/index.html",
+    "main.231652fe.css.map": "/static/css/main.231652fe.css.map",
+    "main.5de742c9.js.map": "/static/js/main.5de742c9.js.map",
+    "882.86ca574e.chunk.js.map": "/static/js/882.86ca574e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.231652fe.css",
+    "static/js/main.5de742c9.js"
+  ]
+}
