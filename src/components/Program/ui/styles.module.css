@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container > h1 {
+  padding: 0;
+  font-size: 25px;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  text-align: center;
+  color: var(--primary-text);
+}
+
+.programContainer {
+  gap: 50px;
+  display: flex;
+  text-align: center;
+  align-items: flex-start;
+  font-family: 'MontserratARM';
+  flex-wrap: wrap;
+}
+
+.programContainer > div {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-direction: column;
+}
+
+.programContainer > div > p{
+  margin: 0px;
+  color: var(--secondary-text)
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.rignsImage {
+  background-image: url(../../../../assets/images/rings.png);
+}
+
+.eventImage {
+  background-image: url(../../../../assets/images/event.png);
+}
+
+.endImage {
+  background-size: 60% 60%;
+  background-image: url(../../../../assets/images/end.png);
+}
+
+.programItemName {
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.programItemTime {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 10px !important;
+}
+
+.programItemPlace {
+  font-size: 20px;
+  font-weight: 700;
+}
