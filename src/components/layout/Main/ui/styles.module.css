@@ -14,7 +14,7 @@
   flex-direction: column;
 }
 
-.places > div:last-of-type {
+.places > div:nth-of-type(2) {
   flex-direction: row-reverse;
 }
 
@@ -67,6 +67,11 @@
 .hall {
   background-size: cover;
   background-image: url(../../../../../assets/images/hall.jpg);
+}
+
+.photosession {
+  background-size: cover;
+  background-image: url(../../../../../assets/images/photosession.jpg);
 }
 
 .church {

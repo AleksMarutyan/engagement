@@ -1,18 +1,18 @@
 .header {
   flex-grow:1;
   display: flex;
-  min-height: 100vh;
   height: fit-content;
   position: relative;
   align-items: center;
   flex-direction: column;
-  background-size: cover;
   justify-content: center;
+  background-size: 100% 100%;
+  background-color: #E1CECA;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding: 100px 20px 50px 20px;
+  padding: 50px 20px 50px 20px;
   background-position: center center;
-  background-image: url(../../../../../assets/images/image.jpg);
+  background-image: url(../../../../../assets/images/desktop.JPG);
 }
 
 .headerFilter {
@@ -23,11 +23,12 @@
   height: 100%;
   display: flex;
   position: absolute;
-  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(5, 5, 5, 0.5));
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
 }
 
 .content {
   gap: 15px;
+  z-index: 10;
   width: 100%;
   display: flex;
   text-align: center;
@@ -37,10 +38,61 @@
 }
 
 .content > h1 {
-  color: white;
+  color: var(--primary-text);
+}
+
+.namesContainer {
+  width: 100%; 
+  overflow: hidden;
+  margin-top: 180px;
 }
 
 .names {
-  font-size: 50px;
-  color: var(--secondary-text);
+  margin: 0;
+  opacity: 0; 
+  color: #936529;
+  font-size: 95px;
+  font-weight: 100;
+  font-family: Dzeragir;
+  backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
 }
+
+.firstName {
+  animation: firstName 1s ease-out 0.5s;
+  animation-fill-mode: forwards;
+  transform: translateX(-120px);
+}
+
+.secondName {
+  animation: secondName 1s ease-out 0.5s;
+  animation-fill-mode: forwards;
+  transform: translateX(120px);
+}
+
+@keyframes firstName {
+  from { 
+    opacity: 0; 
+  }
+  to { 
+    opacity: 1; 
+    transform: translate(-50px);
+  }
+}
+
+@keyframes secondName {
+  from { 
+    opacity: 0; 
+  }
+  to { 
+    opacity: 1; 
+    transform: translate(50px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    background-image: url(../../../../../assets/images/mobile.JPG);
+  }
+}
+

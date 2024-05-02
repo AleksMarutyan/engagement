@@ -5,7 +5,12 @@
   src: url(../assets/fonts/GreatVibes-Regular.ttf);
 }
 
+@font-face {
+  font-family: 'Dzeragir';
+  src: url(../assets/fonts/Dzeragir.otf);
+}
+
 :root {
   --primary-text: #fff;
-  --secondary-text: #dac2a4;
+  --secondary-text: #e2a95e;
 }

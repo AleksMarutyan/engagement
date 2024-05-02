@@ -10,7 +10,7 @@ export const Program = () => {
         <div>
           <div className={classNames(styles.image, styles.rignsImage)}/> 
           <p className={styles.programItemName}>
-            Նշանադրություն արարողություն
+            Պսակադրություն
           </p>
           <p className={styles.programItemTime}>
             15:00
@@ -22,7 +22,7 @@ export const Program = () => {
         <div>
           <div className={classNames(styles.image, styles.eventImage)}/>
           <p className={styles.programItemName}>
-            Նշանադրություն հանդիսություն
+            Հարսանյաց հանդիսություն
           </p>
           <p className={styles.programItemTime}>
             15:00

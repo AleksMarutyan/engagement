@@ -31,7 +31,10 @@ export const Timer = () => {
     return (
       <div className={styles.container}>
         <p className={styles.topText}>
-          Արարողությունը մնացել է
+          Սիրով հրավիրում ենք Ձեզ կիսելու մեզ հետ մեր կյանքի        
+        </p>
+        <p className={styles.topText}>
+          կարևոր և հիշարժան օրը, որին մնաց        
         </p>
         <div className={styles.timer}>
           <p>

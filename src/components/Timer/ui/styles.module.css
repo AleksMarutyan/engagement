@@ -1,11 +1,13 @@
 .container {
   gap: 10px;
   display: flex;
+  margin-top: 80px;
   flex-direction: column;
   font-family: Greate Vibes;
 }
 
 .topText {
+  margin: 0;
   font-size: 25px;
   line-height: 1.55;
   color: var(--primary-text);
@@ -13,6 +15,8 @@
 }
 
 .timer {
+  margin-top: 55px;
+  justify-content: center;
   color: var(--secondary-text);
   display: flex;
 }
