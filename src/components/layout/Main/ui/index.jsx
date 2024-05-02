@@ -5,6 +5,7 @@ import styles from "./styles.module.css";
 export const Main = () => {
   const goToDirection = (direaction) => {
     let url = 'https://www.google.com/maps/dir/?api=1&destination=' + direaction + '&travelmode=driving';
+    
     window.open(url, '_blank');
   }
 
