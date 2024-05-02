@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/engagement/static/css/main.fc427673.css",
-    "main.js": "/engagement/static/js/main.a053a2e7.js",
+    "main.css": "/engagement/static/css/main.dd5fa1c1.css",
+    "main.js": "/engagement/static/js/main.3a0fe6c4.js",
     "static/js/882.86ca574e.chunk.js": "/engagement/static/js/882.86ca574e.chunk.js",
     "static/media/church.jpg": "/engagement/static/media/church.3c68201327f29f0628a4.jpg",
     "static/media/GreatVibes-Regular.ttf": "/engagement/static/media/GreatVibes-Regular.6d246c3b51d7eb58b13a.ttf",
     "static/media/hall.jpg": "/engagement/static/media/hall.c235cbc9dac1f213fd7a.jpg",
+    "static/media/desktop.JPG": "/engagement/static/media/desktop.19607f302b6081da9938.JPG",
+    "static/media/mobile.JPG": "/engagement/static/media/mobile.aed5015e892e44256ec4.JPG",
+    "static/media/photosession.jpg": "/engagement/static/media/photosession.f27cb8239ef94a7cbbde.jpg",
+    "static/media/Dzeragir.otf": "/engagement/static/media/Dzeragir.706a377fba825da38f8f.otf",
     "static/media/rings.png": "/engagement/static/media/rings.87a55d2e861762d0756f.png",
     "static/media/event.png": "/engagement/static/media/event.1a5c7f96aea0238e1c97.png",
-    "static/media/image.jpg": "/engagement/static/media/image.ab4ce63af2e26ae11fea.jpg",
     "index.html": "/engagement/index.html",
-    "main.fc427673.css.map": "/engagement/static/css/main.fc427673.css.map",
-    "main.a053a2e7.js.map": "/engagement/static/js/main.a053a2e7.js.map",
+    "main.dd5fa1c1.css.map": "/engagement/static/css/main.dd5fa1c1.css.map",
+    "main.3a0fe6c4.js.map": "/engagement/static/js/main.3a0fe6c4.js.map",
     "882.86ca574e.chunk.js.map": "/engagement/static/js/882.86ca574e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc427673.css",
-    "static/js/main.a053a2e7.js"
+    "static/css/main.dd5fa1c1.css",
+    "static/js/main.3a0fe6c4.js"
   ]
 }
