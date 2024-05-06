@@ -59,12 +59,14 @@
 }
 
 .firstName {
+  animation-delay: 0.5s;
   animation: firstName 1s ease-out 0.5s;
   animation-fill-mode: forwards;
   transform: translateX(-120px);
 }
 
 .secondName {
+  animation-delay: 0.5s;
   animation: secondName 1s ease-out 0.5s;
   animation-fill-mode: forwards;
   transform: translateX(120px);

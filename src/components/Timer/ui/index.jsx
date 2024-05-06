@@ -1,7 +1,7 @@
 import styles from "./styles.module.css";
 import { useState, useEffect } from "react";
 
-function timeRemaining(endDate = new Date("2024-05-15")) {
+function timeRemaining(endDate = new Date("2024-06-08 14:30:00")) {
   let current = new Date();
   let difference = endDate - current;
 

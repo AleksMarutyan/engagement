@@ -13,7 +13,7 @@ export const Program = () => {
             Պսակադրություն
           </p>
           <p className={styles.programItemTime}>
-            15:00
+            14:30
           </p>
           <p className={styles.programItemPlace}>
             Հաղարծնի վանք
@@ -25,7 +25,7 @@ export const Program = () => {
             Հարսանյաց հանդիսություն
           </p>
           <p className={styles.programItemTime}>
-            15:00
+            17:00
           </p>
           <p className={styles.programItemPlace}>
             Գետափ Դիլիջան
