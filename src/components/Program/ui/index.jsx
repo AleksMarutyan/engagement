@@ -36,9 +36,6 @@ export const Program = () => {
           <p className={styles.programItemName}>
             Հանդիսություն ավարտ
           </p>
-          <p className={styles.programItemTime}>
-            15:00
-          </p>
         </div>  
       </div>
     </div>
