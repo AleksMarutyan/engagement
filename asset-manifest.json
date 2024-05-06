@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/engagement/static/css/main.1d849ebc.css",
-    "main.js": "/engagement/static/js/main.2ffd2914.js",
+    "main.js": "/engagement/static/js/main.9bdfc4bc.js",
     "static/js/453.ce7d678a.chunk.js": "/engagement/static/js/453.ce7d678a.chunk.js",
     "static/media/church.jpg": "/engagement/static/media/church.ba669a290b76f5baf34c.jpg",
     "static/media/GreatVibes-Regular.ttf": "/engagement/static/media/GreatVibes-Regular.6d246c3b51d7eb58b13a.ttf",
@@ -14,11 +14,11 @@
     "static/media/event.png": "/engagement/static/media/event.1a5c7f96aea0238e1c97.png",
     "index.html": "/engagement/index.html",
     "main.1d849ebc.css.map": "/engagement/static/css/main.1d849ebc.css.map",
-    "main.2ffd2914.js.map": "/engagement/static/js/main.2ffd2914.js.map",
+    "main.9bdfc4bc.js.map": "/engagement/static/js/main.9bdfc4bc.js.map",
     "453.ce7d678a.chunk.js.map": "/engagement/static/js/453.ce7d678a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1d849ebc.css",
-    "static/js/main.2ffd2914.js"
+    "static/js/main.9bdfc4bc.js"
   ]
 }
