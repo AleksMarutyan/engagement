@@ -18,6 +18,9 @@ export const Main = () => {
               <p className={styles.title}>
                 Արարողություն 
               </p>
+              <p className={styles.time}>
+                14:30 
+              </p>
               <button 
                 className={styles.mapButton} 
                 onClick={(event)=>{
@@ -42,6 +45,9 @@ export const Main = () => {
               <p className={styles.title}>
                 Ֆոտոսեսիա 
               </p>
+              <p className={styles.time}>
+                15:30 
+              </p>
               <button 
                 className={styles.mapButton} 
                 onClick={(event)=>{
@@ -65,6 +71,9 @@ export const Main = () => {
             <div className="">
               <p className={styles.title}>
                 Հանդիսություն
+              </p>
+              <p className={styles.time}>
+                17:00
               </p>
               <button 
                 className={styles.mapButton} 
