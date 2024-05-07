@@ -1,6 +1,7 @@
 import classNames from "classnames";
-import { Map } from "../../../Map/ui";
 import styles from "./styles.module.css";
+import { Timer } from "../../../Timer/ui";
+import { Program } from "../../../Program/ui";
 
 export const Main = () => {
   const goToDirection = (direaction) => {
@@ -11,6 +12,8 @@ export const Main = () => {
 
   return (
     <main className={styles.main}>
+      <Timer/>
+      <Program/>
       <div className={styles.places}>
         <div className={styles.flexContainer}>
           <div className={classNames(styles.church, styles.imageContainer)}>
@@ -32,12 +35,6 @@ export const Main = () => {
               </button>
             </div>
           </div>
-          <Map 
-            center={{
-              lat: 40.80201505999294, 
-              lng: 44.89094764008156,
-            }}
-          />          
         </div>
         <div className={styles.flexContainer}>
           <div className={classNames(styles.photosession, styles.imageContainer)}>
@@ -59,12 +56,6 @@ export const Main = () => {
               </button>
             </div>
           </div>
-          <Map 
-            center={{
-              lat: 40.74022479694044, 
-              lng: 44.870355404001955,
-            }}
-          />          
         </div>
         <div className={styles.flexContainer}>
           <div className={classNames(styles.hall, styles.imageContainer)}>
@@ -86,12 +77,6 @@ export const Main = () => {
               </button>
             </div>
           </div>
-          <Map
-            center={{
-              lat: 40.75949563888817, 
-              lng: 44.906017240754316,
-            }}
-          />     
         </div>
       </div>
     </main>

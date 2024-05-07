@@ -1,12 +1,12 @@
-import { Timer } from "../../../Timer/ui";
 import styles from "./styles.module.css";
-import { Program } from "../../../Program/ui";
 import classNames from "classnames";
+import image from "./mobile.jpg"
 
 export const Header = () => {
   
   return (
-    <header className={styles.header}>   
+    <header className={styles.header}> 
+      <img src={image} alt="m_image" className={styles.image} />  
       <div className={styles.content}>
         <h1>
           ՀԱՐՍԱՆՅԱՑ ՀՐԱՎԻՐԱՏՈՄՍ
@@ -19,8 +19,6 @@ export const Header = () => {
             Սոնա
           </p>
         </div>
-        <Timer/>
-        <Program/>
       </div>
       <div className={styles.headerFilter} />
     </header>

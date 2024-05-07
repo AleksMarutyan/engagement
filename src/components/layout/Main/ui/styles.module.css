@@ -1,10 +1,10 @@
 .main {
-  padding: 10px;
   display: flex;
+  padding: 30px 15px;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  background-color: #f1e6dc;
+  background-color: #E0CAC6;
 }
 
 .places {
@@ -28,10 +28,8 @@
 }
 
 .imageContainer {
-  height: 60vh;
-  width: 60vh;
-  max-width: 50vw;
-  max-height: 50vw;
+  width: 250px;
+  height: 250px;
   margin: 20px;
   padding: 20px;
   display: flex;
@@ -85,8 +83,9 @@
 }
 
 .church {
-  background-size: cover;
   background-image: url(../../../../../assets/images/church.jpg);
+  background-blend-mode: saturation;
+
 }
 
 .mapButton {
@@ -94,7 +93,7 @@
   border-radius: 100px;
   cursor: pointer;
   background-color: transparent;
-  color: var(--secondary-text);
+  color: var(--primary-text);
   border: 2px solid var(--secondary-text)
 }
 

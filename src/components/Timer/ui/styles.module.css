@@ -1,7 +1,7 @@
 .container {
   gap: 10px;
   display: flex;
-  margin-top: 80px;
+  text-align: center;
   flex-direction: column;
   font-family: Greate Vibes;
 }
@@ -15,7 +15,7 @@
 }
 
 .timer {
-  margin-top: 55px;
+  margin-top: 25px;
   justify-content: center;
   color: var(--secondary-text);
   display: flex;
