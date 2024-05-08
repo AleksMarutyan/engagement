@@ -28,17 +28,18 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  padding: 120px 20px 50px 20px;
 }
 
 .content > h1 {
-  font-size: 24px;
+  font-size: 58px;
   text-align: center;
-  padding: 0 25px;
   color: var(--primary-text);
 }
 
 .namesContainer {
   width: 100%; 
+  margin-top: 65%;
   overflow: hidden;
 }
 
@@ -46,8 +47,8 @@
   margin: 0;
   opacity: 0; 
   color: #936529;
-  font-size: 95px;
-  font-weight: 100;
+  font-size: 195px;
+  letter-spacing: 6;
   font-family: Dzeragir;
   backface-visibility: hidden;
   transform: translate3d(0, 0, 0);
@@ -76,11 +77,12 @@
   .content {
     padding: 10px 20px 50px 20px;
   }
-  
-  .namesContainer {
-    margin-top: 65%;
+
+  .content > h1 {
+    font-size: 24px;
+    padding: 0 25px;
   }
-  
+
   .names {
     opacity: 0; 
     font-size: 75px;
