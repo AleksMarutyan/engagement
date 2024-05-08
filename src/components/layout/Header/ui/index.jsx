@@ -1,6 +1,6 @@
 import styles from "./styles.module.css";
 import classNames from "classnames";
-import image from "./mobile.jpg"
+import image from "./mobile_1.png"
 
 export const Header = () => {
   

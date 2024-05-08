@@ -5,7 +5,6 @@
   align-items: center;
   flex-direction: column;
   background-color: #f1e6dc;
-  /* padding: 50px 20px 50px 20px; */
 }
 
 .headerFilter {
@@ -32,13 +31,15 @@
 }
 
 .content > h1 {
+  font-size: 24px;
+  text-align: center;
+  padding: 0 25px;
   color: var(--primary-text);
 }
 
 .namesContainer {
   width: 100%; 
   overflow: hidden;
-  margin-top: 180px;
 }
 
 .names {
@@ -54,9 +55,9 @@
 
 .firstName {
   animation-delay: 0.5s;
+  transform: translateX(-120px);
   animation: firstName 1s ease-out 0.5s;
   animation-fill-mode: forwards;
-  transform: translateX(-120px);
 }
 
 .secondName {
@@ -67,23 +68,24 @@
 }
 
 .image {
-  height: 100vh;
   width: 100vw;
   /* object-fit: contain; */
 }
 
 @media screen and (max-width: 768px) {
   .content {
-    padding: 50px 20px 50px 20px;
+    padding: 10px 20px 50px 20px;
   }
   
   .namesContainer {
-    margin-top: 200px;
+    margin-top: 65%;
   }
   
   .names {
     opacity: 0; 
     font-size: 75px;
+    letter-spacing: 6;
+    line-height: 70px;
     font-family: Dzeragir;
     backface-visibility: hidden;
     transform: translate3d(0, 0, 0);
