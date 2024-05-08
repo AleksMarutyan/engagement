@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/engagement/static/css/main.6fe2c59c.css",
-    "main.js": "/engagement/static/js/main.b0a40f21.js",
+    "main.css": "/engagement/static/css/main.26f51204.css",
+    "main.js": "/engagement/static/js/main.ec372199.js",
     "static/js/453.ce7d678a.chunk.js": "/engagement/static/js/453.ce7d678a.chunk.js",
+    "static/media/mobile_1.png": "/engagement/static/media/mobile_1.ee7c0e0a9de30ffa53a7.png",
     "static/media/church.jpg": "/engagement/static/media/church.ba669a290b76f5baf34c.jpg",
-    "static/media/mobile.jpg": "/engagement/static/media/mobile.18ba99e85981cd1789de.jpg",
     "static/media/GreatVibes-Regular.ttf": "/engagement/static/media/GreatVibes-Regular.6d246c3b51d7eb58b13a.ttf",
     "static/media/hall.jpg": "/engagement/static/media/hall.a733373f9f97ff8b6d02.jpg",
     "static/media/photosession.jpg": "/engagement/static/media/photosession.27b868a7126b5cb090d8.jpg",
@@ -12,12 +12,12 @@
     "static/media/rings.png": "/engagement/static/media/rings.87a55d2e861762d0756f.png",
     "static/media/event.png": "/engagement/static/media/event.1a5c7f96aea0238e1c97.png",
     "index.html": "/engagement/index.html",
-    "main.6fe2c59c.css.map": "/engagement/static/css/main.6fe2c59c.css.map",
-    "main.b0a40f21.js.map": "/engagement/static/js/main.b0a40f21.js.map",
+    "main.26f51204.css.map": "/engagement/static/css/main.26f51204.css.map",
+    "main.ec372199.js.map": "/engagement/static/js/main.ec372199.js.map",
     "453.ce7d678a.chunk.js.map": "/engagement/static/js/453.ce7d678a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6fe2c59c.css",
-    "static/js/main.b0a40f21.js"
+    "static/css/main.26f51204.css",
+    "static/js/main.ec372199.js"
   ]
 }
