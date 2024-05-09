@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/engagement/static/css/main.08c99ec7.css",
-    "main.js": "/engagement/static/js/main.7e96d5dd.js",
+    "main.css": "/engagement/static/css/main.af97e9c4.css",
+    "main.js": "/engagement/static/js/main.3ff8ab98.js",
     "static/js/453.ce7d678a.chunk.js": "/engagement/static/js/453.ce7d678a.chunk.js",
     "static/media/mobile_1.png": "/engagement/static/media/mobile_1.f9a672c63e242357632f.png",
     "static/media/church.jpg": "/engagement/static/media/church.ba669a290b76f5baf34c.jpg",
@@ -9,15 +9,14 @@
     "static/media/hall.jpg": "/engagement/static/media/hall.a733373f9f97ff8b6d02.jpg",
     "static/media/photosession.jpg": "/engagement/static/media/photosession.27b868a7126b5cb090d8.jpg",
     "static/media/Dzeragir.otf": "/engagement/static/media/Dzeragir.706a377fba825da38f8f.otf",
-    "static/media/rings.png": "/engagement/static/media/rings.87a55d2e861762d0756f.png",
-    "static/media/event.png": "/engagement/static/media/event.1a5c7f96aea0238e1c97.png",
+    "static/media/photosession.png": "/engagement/static/media/photosession.68ca6445402d0ee5b12e.png",
     "index.html": "/engagement/index.html",
-    "main.08c99ec7.css.map": "/engagement/static/css/main.08c99ec7.css.map",
-    "main.7e96d5dd.js.map": "/engagement/static/js/main.7e96d5dd.js.map",
+    "main.af97e9c4.css.map": "/engagement/static/css/main.af97e9c4.css.map",
+    "main.3ff8ab98.js.map": "/engagement/static/js/main.3ff8ab98.js.map",
     "453.ce7d678a.chunk.js.map": "/engagement/static/js/453.ce7d678a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08c99ec7.css",
-    "static/js/main.7e96d5dd.js"
+    "static/css/main.af97e9c4.css",
+    "static/js/main.3ff8ab98.js"
   ]
 }
