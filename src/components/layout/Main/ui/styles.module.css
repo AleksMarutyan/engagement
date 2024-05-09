@@ -4,7 +4,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  background-color: #E0CAC6;
+  background-color: #ffffff;
 }
 
 .places {
@@ -94,10 +94,11 @@
   cursor: pointer;
   background-color: transparent;
   color: var(--primary-text);
-  border: 2px solid var(--secondary-text)
+  border: 2px solid #DBBF7F
 }
 
 .mapButton:hover {
   color: var(--primary-text);
-  background-color: var(--secondary-text);
+  background-color: #DBBF7F;
+  border-color: #DBBF7F;
 }

@@ -10,14 +10,14 @@
   margin: 0;
   font-size: 25px;
   line-height: 1.55;
-  color: var(--primary-text);
+  color: var(--secondary-text);
   font-family: 'MontserratARM', Arial, sans-serif;
 }
 
 .timer {
   margin-top: 25px;
   justify-content: center;
-  color: var(--secondary-text);
+  color: #DBBF7F;
   display: flex;
 }
 

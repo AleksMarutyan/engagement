@@ -9,7 +9,7 @@
   margin-top: 60px;
   margin-bottom: 0px;
   text-align: center;
-  color: var(--primary-text);
+  color: var(--secondary-text);
 }
 
 .programContainer {
@@ -42,21 +42,21 @@
 }
 
 .rignsImage {
-  background-image: url(../../../../assets/images/rings.png);
+  background-image: url(../../../../assets/images/church.png);
 }
 
 .eventImage {
-  background-image: url(../../../../assets/images/event.png);
+  background-image: url(../../../../assets/images/event_1.png);
 }
 
 .endImage {
   background-size: 60% 60%;
-  background-image: url(../../../../assets/images/end.png);
+  background-image: url(../../../../assets/images/photosession.png);
 }
 
 .programItemName {
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 500;
   text-transform: uppercase;
 }
 
@@ -68,5 +68,5 @@
 
 .programItemPlace {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 5  00;
 }

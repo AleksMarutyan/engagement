@@ -20,6 +20,18 @@ export const Program = () => {
           </p>
         </div> 
         <div>
+          <div className={classNames(styles.image, styles.endImage)}/>
+          <p className={styles.programItemName}>
+            Ֆոտոսեսիա
+          </p>
+          <p className={styles.programItemTime}>
+            15:00
+          </p>
+          <p className={styles.programItemPlace}>
+            Դիլիջանի ամֆիթատրոն
+          </p>
+        </div>  
+        <div>
           <div className={classNames(styles.image, styles.eventImage)}/>
           <p className={styles.programItemName}>
             Հարսանյաց հանդիսություն
@@ -31,12 +43,6 @@ export const Program = () => {
             Գետափ Դիլիջան
           </p>
         </div>
-        <div>
-          <div className={classNames(styles.image, styles.endImage)}/>
-          <p className={styles.programItemName}>
-            Հանդիսություն ավարտ
-          </p>
-        </div>  
       </div>
     </div>
   )
